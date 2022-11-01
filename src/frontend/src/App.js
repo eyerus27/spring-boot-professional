@@ -214,7 +214,7 @@ function App() {
             </Content>
             <Footer style={{textAlign: 'center'}}>
                 <Image
-                    width={75}
+                    width={80}
                     src="https://user-images.githubusercontent.com/37352905/199359672-422be15b-c129-4b4d-898d-310d7350814a.gif"
                 />
             </Footer>

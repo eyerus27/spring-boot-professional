@@ -17,7 +17,7 @@ import {
     TeamOutlined,
     UserOutlined,
     LoadingOutlined,
-    PlusOutlined
+    PlusOutlined, FacebookOutlined
 } from '@ant-design/icons';
 import StudentDrawerForm from "./StudentDrawerForm";
 
@@ -164,7 +164,6 @@ function App() {
                             type="primary" shape="round" icon={<PlusOutlined/>} size="small">
                             Add New Student
                         </Button>
-
                     </>
 
                 }
@@ -213,10 +212,8 @@ function App() {
                 </div>
             </Content>
             <Footer style={{textAlign: 'center'}}>
-                <Image
-                    width={80}
-                    src="https://user-images.githubusercontent.com/37352905/199359672-422be15b-c129-4b4d-898d-310d7350814a.gif"
-                />
+
+
             </Footer>
         </Layout>
     </Layout>

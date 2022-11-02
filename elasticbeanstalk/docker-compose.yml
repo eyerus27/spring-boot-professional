@@ -3,7 +3,7 @@ services:
   backend:
     image: "gebeyer/springboot-react-fullstack:3"
     ports:
-      - "80:8082"
+      - "80:8080"
     restart: "always"
     environment:
       SPRING_PROFILES_ACTIVE: dev

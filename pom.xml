@@ -113,7 +113,7 @@
                                 <phase>package</phase>
                                 <configuration>
                                     <to>
-                                        <image>docker.io/amigoscode/${app.image.name}:${app.image.tag}</image>
+                                        <image>docker.io/gebeyer/${app.image.name}:${app.image.tag}</image>
                                     </to>
                                 </configuration>
                                 <goals>
@@ -125,7 +125,7 @@
                                 <phase>package</phase>
                                 <configuration>
                                     <to>
-                                        <image>docker.io/amigoscode/${app.image.name}:latest</image>
+                                        <image>docker.io/gebeyer/${app.image.name}:latest</image>
                                     </to>
                                 </configuration>
                                 <goals>
@@ -165,7 +165,7 @@
                                 <phase>package</phase>
                                 <configuration>
                                     <to>
-                                        <image>amigoscode/${app.image.name}:${app.image.tag}</image>
+                                        <image>gebeyer/${app.image.name}:${app.image.tag}</image>
                                     </to>
                                 </configuration>
                                 <goals>
@@ -177,7 +177,7 @@
                                 <phase>package</phase>
                                 <configuration>
                                     <to>
-                                        <image>amigoscode/${app.image.name}:latest</image>
+                                        <image>gebeyer/${app.image.name}:latest</image>
                                     </to>
                                 </configuration>
                                 <goals>

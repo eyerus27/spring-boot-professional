@@ -6,13 +6,13 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: CI
+name: Java CI with Maven
 
 on:
+  push:
+    branches: [ "master" ]
   pull_request:
-    branches: [ main ]
-
-  workflow_dispatch:
+    branches: [ "master" ]
 
 env:
   POSTGRESQL_VERSION: 13.1

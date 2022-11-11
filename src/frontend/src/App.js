@@ -214,7 +214,7 @@ function App() {
             <Footer style={{textAlign: 'center'}}>
                 <Image width={75} src="https://user-images.githubusercontent.com/37352905/200938589-e26e5233-cc3d-4a2a-872e-4f7585a59170.gif"></Image>
                 <Divider>
-                    <a target="_blank" href="https://www.eyeruw.com">Click hear to learn about the developer</a>
+                    <a target="_blank" rel="noreferrer" href="https://www.eyeruw.com">Click hear to learn about the developer</a>
                 </Divider>
 
             </Footer>

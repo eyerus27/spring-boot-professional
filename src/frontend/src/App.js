@@ -109,11 +109,11 @@ function App() {
                 setStudents(data);
                 setFetching(false);
             }).catch(err => {
-                console.log(err.response);
-                err.response.json().then(res =>{
-                    console.log(res);
-                    errorNotification("There is an error", `${res.message} [${res.status}][${res.error}]`);
-                })
+            console.log(err.response);
+            err.response.json().then(res =>{
+                console.log(res);
+                errorNotification("There is an error", `${res.message} [${res.status}][${res.error}]`);
+            })
         }).finally(() => {
             setFetching(false)
         })

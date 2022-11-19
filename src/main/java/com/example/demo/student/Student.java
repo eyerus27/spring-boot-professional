@@ -32,9 +32,10 @@ public class Student {
     @Email()
     @Column(nullable = false,unique = true)
     private String email;
-   @NotNull
-   @Enumerated(EnumType.STRING)
-   @Column(nullable = false,unique = false)
+    @NotNull
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false,unique = false)
+
     private Gender gender;
 
     public Student(String name, String email, Gender gender) {

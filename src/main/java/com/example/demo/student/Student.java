@@ -35,6 +35,7 @@ public class Student {
    @NotNull
    @Enumerated(EnumType.STRING)
    @Column(nullable = false)
+
     private Gender gender;
 
     public Student(String name, String email, Gender gender) {

@@ -34,7 +34,7 @@ public class Student {
     private String email;
     @NotNull
     @Enumerated(EnumType.STRING)
-    @Column(nullable = false,unique = false)
+    @Column(nullable = false)
 
     private Gender gender;
 
